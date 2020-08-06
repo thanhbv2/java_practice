@@ -23,8 +23,6 @@ public class RotationArray {
     return input;
   }
 
-
-
   private static void letfRotate(int[] input, int n) {
     int temp = input[0];
     int i;
