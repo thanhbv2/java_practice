@@ -8,7 +8,11 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/com/spring/aop/DAOConfig.java</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="AspectJ" name="AspectJ">
       <configuration />
